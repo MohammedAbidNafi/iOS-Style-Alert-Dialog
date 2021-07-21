@@ -30,7 +30,7 @@ public class iOSDialog {
     private boolean cancel;
     private Dialog dialog;
 
-    private iOSDialog(Builder builder){
+    public iOSDialog(Builder builder){
 
         this.titletxt = builder.titletxt;
         this.positivetxt = builder.positivetxt;
