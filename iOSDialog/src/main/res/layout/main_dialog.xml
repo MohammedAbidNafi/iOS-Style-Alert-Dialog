@@ -64,6 +64,7 @@
         android:layout_marginBottom="15dp"
         android:textAlignment="center"
         android:textColor="@color/black_text"
+
         >
         <RelativeLayout
             android:layout_width="match_parent"

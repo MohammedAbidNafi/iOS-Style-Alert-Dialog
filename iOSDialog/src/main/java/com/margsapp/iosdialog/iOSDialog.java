@@ -136,6 +136,10 @@ public class iOSDialog {
             TextView positivetxtview,negativetxtview,messageview,titleview;
 
             // View view;
+
+            titlecard = dialog.findViewById(R.id.titlecard);
+            titlecard.setBackgroundResource(R.drawable.title);
+
             dialog = new Dialog(context.get());
 
             dialog.getWindow().setGravity(Gravity.BOTTOM);
@@ -145,7 +149,6 @@ public class iOSDialog {
             dialog.setCancelable(cancel);
             dialog.setContentView(R.layout.main_dialog);
 
-            titlecard = dialog.findViewById(R.id.titlecard);
 
             positivecard = dialog.findViewById(R.id.positivecard);
             negativecard = dialog.findViewById(R.id.negativecard);
