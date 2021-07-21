@@ -136,7 +136,7 @@ public class iOSDialog {
             TextView positivetxtview,negativetxtview,messageview,titleview;
 
             // View view;
-
+            dialog = new Dialog(context.get());
 
             dialog.getWindow().setGravity(Gravity.BOTTOM);
             dialog.getWindow().getAttributes().windowAnimations = R.style.DialogAnimation;
