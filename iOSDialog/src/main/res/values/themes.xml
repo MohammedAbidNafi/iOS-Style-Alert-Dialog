@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/pop_up_slideup</item>
+        <item name="android:windowExitAnimation">@anim/pop_up_slidedown</item>
+    </style>
+
+</resources>
