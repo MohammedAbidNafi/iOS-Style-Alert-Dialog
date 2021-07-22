@@ -23,7 +23,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
 	...
-	implementation 'com.github.MohammedAbidNafi:iOS-Style-Alert-Dialog:1.8'
+	implementation 'com.github.MohammedAbidNafi:iOS-Style-Alert-Dialog:1.9'
 }
 ```
 
