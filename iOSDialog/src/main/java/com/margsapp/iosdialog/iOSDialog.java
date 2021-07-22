@@ -153,7 +153,9 @@ public class iOSDialog {
             titlecard.setBackgroundResource(R.drawable.title);
 
             positivecard = dialog.findViewById(R.id.positivecard);
+            positivecard.setBackgroundResource(R.drawable.top);
             negativecard = dialog.findViewById(R.id.negativecard);
+            negativecard.setBackgroundResource(R.drawable.cancelbtn);
 
             positivetxtview = dialog.findViewById(R.id.positivetxt);
             negativetxtview = dialog.findViewById(R.id.negativetxt);
