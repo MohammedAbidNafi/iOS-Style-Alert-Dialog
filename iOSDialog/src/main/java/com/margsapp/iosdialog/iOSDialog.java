@@ -137,8 +137,7 @@ public class iOSDialog {
 
             // View view;
 
-            titlecard = dialog.findViewById(R.id.titlecard);
-            titlecard.setBackgroundResource(R.drawable.title);
+
 
             dialog = new Dialog(context.get());
 
@@ -149,6 +148,9 @@ public class iOSDialog {
             dialog.setCancelable(cancel);
             dialog.setContentView(R.layout.main_dialog);
 
+
+            titlecard = dialog.findViewById(R.id.titlecard);
+            titlecard.setBackgroundResource(R.drawable.title);
 
             positivecard = dialog.findViewById(R.id.positivecard);
             negativecard = dialog.findViewById(R.id.negativecard);
