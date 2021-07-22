@@ -1,6 +1,7 @@
 # iOS-Style-Alert-Dialog
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=plastic)](https://android-arsenal.com/api?level=21)
+[![](https://jitpack.io/v/MohammedAbidNafi/iOS-Style-Alert-Dialog.svg)](https://jitpack.io/#MohammedAbidNafi/iOS-Style-Alert-Dialog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Prerequisites
