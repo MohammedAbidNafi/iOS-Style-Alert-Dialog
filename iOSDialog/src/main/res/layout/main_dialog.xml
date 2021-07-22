@@ -33,14 +33,14 @@
                 android:layout_alignParentTop="true"
                 android:textSize="25dp"
                 android:layout_marginTop="10dp"
-                android:textColor="#fff"/>
+                android:textColor="@color/black_text"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/messageview"
                 android:layout_centerHorizontal="true"
-                android:textColor="#fff"
+                android:textColor="@color/greytext"
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_below="@+id/titleview"/>
@@ -48,8 +48,8 @@
     </androidx.cardview.widget.CardView>
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#707070"
+        android:layout_height="2dp"
+        android:background="@color/sperator"
         android:layout_marginHorizontal="5dp"
         />
 
