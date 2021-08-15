@@ -7,6 +7,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 import androidx.annotation.ColorInt;
@@ -176,7 +177,12 @@ public class iOSDialog {
                 positivetxtview.setText(positivetxt);
             }
 
+
+            if(messagetxt == null){
+                messageview.setVisibility(View.GONE);
+            }
             if(messagetxt != null){
+                messageview.setVisibility(View.VISIBLE);
                 messageview.setText(messagetxt);
             }
 
@@ -203,6 +209,9 @@ public class iOSDialog {
                     }
                 });
             }
+
+            Window window = dialog.getWindow();
+            window.setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
 
 
             return new iOSDialog(this);

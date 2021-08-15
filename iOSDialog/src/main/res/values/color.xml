@@ -5,5 +5,5 @@
     <color name="card_back">#fff</color>
     <color name="black_text">#000</color>
     <color name="greytext">#616161</color>
-    <color name="sperator">#C6C6C6</color>
+    <color name="sperator">#DDDDDD</color>
 </resources>
