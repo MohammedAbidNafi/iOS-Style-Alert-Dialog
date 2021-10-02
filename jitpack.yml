@@ -3,4 +3,4 @@ jdk:
 before_install:
   - chmod +x gradlew
 install:
-  - ./gradlew build :{iOS Style Alert Dialog}:publishToMavenLocal
+  - ./gradlew build :{iOSDialog}:publishToMavenLocal
