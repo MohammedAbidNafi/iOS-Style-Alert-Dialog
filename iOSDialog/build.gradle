@@ -36,7 +36,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.margsapp.iosdialog'
                 artifactId = 'iOSDialog'
-                version = '2.0'
+                version = '1.9.2'
             }
         }
     }
