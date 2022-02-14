@@ -1,18 +1,20 @@
-package com.margsapp.iosdialog;
+package com.margsapp.sample.iosdialog;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
+
+import com.margsapp.iosdialog.iOSDialog;
+import com.margsapp.iosdialog.iOSDialogListener;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(com.margsapp.sample.iosdialog.R.layout.activity_main);
     }
 
 
@@ -22,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
                 .setTitle("Title")
                 .setMessage("This is the description and this is how it looks.")
                 .setPositiveText("Yes")
-                .setPostiveTextColor(getApplicationContext().getResources().getColor(R.color.red))
+                .setPostiveTextColor(getApplicationContext().getResources().getColor(com.margsapp.iosdialog.R.color.red))
                 .setNegativeText("Cancel")
-                .setNegativeTextColor(getApplicationContext().getResources().getColor(R.color.company_blue))
+                .setNegativeTextColor(getApplicationContext().getResources().getColor(com.margsapp.iosdialog.R.color.company_blue))
                 .onPositiveClicked(new iOSDialogListener() {
                     @Override
                     public void onClick(Dialog dialog) {
